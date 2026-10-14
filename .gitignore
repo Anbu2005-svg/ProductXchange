@@ -1,0 +1,59 @@
+# Environment files & Secrets
+.env
+.env.*
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+!*.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+productxchange.db
+backend/productxchange.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads & Media
+uploads/*
+!uploads/.gitkeep
+!uploads/demo/
+!uploads/demo/*
+backend/uploads/*
+!backend/uploads/.gitkeep
+!backend/uploads/demo/
+!backend/uploads/demo/*
+
+# Terraform & Cloud
+*.tfstate*
+.terraform/
+*.pem
+*.key
+
+# OS & Logs
+*.log
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,44 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files
+.env
+.env.*
+*.env
+!*.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Databases & local sqlite
+*.db
+*.sqlite
+*.sqlite3
+productxchange.db
+
+# Media uploads
+uploads/*
+!uploads/.gitkeep
+!uploads/demo/
+!uploads/demo/*
+
+# Model files
+app/ai/models/*.pkl
+app/ai/models/*.bin
+app/ai/models/*.safetensors
+*.pkl
+
+# IDE & OS
+.vscode/
+.idea/
+*.log
+.DS_Store

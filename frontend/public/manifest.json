@@ -1,0 +1,17 @@
+{
+  "name": "ProductXchange Campus",
+  "short_name": "ProductXchange",
+  "description": "Hyper-local campus circular economy & student marketplace",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#2f6b4f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
